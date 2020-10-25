@@ -9,9 +9,10 @@ public class TimeService {
         Date date = new Date();
         return date.toString();
     }
-    
+
     public Long getEpochTime() {
         Date date = new Date();
+        
         return date.getTime();
     }
 }
